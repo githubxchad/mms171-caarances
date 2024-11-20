@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #f6b800;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.animal-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.animal-card {
+    background-color: #ffefbb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.animal-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.animal-card button {
+    background-color: #f6b800;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.animal-card button:hover {
+    background-color: #e0a800;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    gap: 30px;
+}
+
+/* How to Help Section */
+.how-to-help {
+    background-color: #f6f6f6;
+    padding: 30px 0;
+    text-align: center;
+    flex: 1;
+}
+
+.help-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.help-option {
+    background-color: #ffdf70;
+    padding: 15px;
+    border-radius: 5px;
+    width: 140px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.help-option:hover {
+    background-color: #f6b800;
+}
+
+/* Trivia Section */
+.trivia {
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 1;
+}
+
+.trivia h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.trivia ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.trivia ul li {
+    margin-bottom: 10px;
+}
+
+/* Organizations Section */
+.organizations {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.organization {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #f6b800;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (screens up to 768px wide) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .animal-cards {
+        justify-content: space-around;
+    }
+
+    .animal-card {
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .help-option {
+        width: 120px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .trivia {
+        padding: 15px;
+    }
+}
+
+/* For mobile devices (screens up to 480px wide) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .animal-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .animal-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .help-option {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trivia {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 
