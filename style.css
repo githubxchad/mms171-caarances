@@ -150,6 +150,25 @@ h3 {
 }
 
 /* About Section */
+
+.body-container {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff; /* Matches the background gray */
+}
+
+.grid-containers  {
+    display: flex;
+    flex-direction: column;
+    display: flex
+    padding: 64px 128px 24px 128px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .about {
     padding: 20px;
     background-color: #ffffff;
