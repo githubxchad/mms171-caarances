@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -19,7 +19,7 @@ header {
 
 h1 {
     color: var(--Secondary-Orange-700, var(--Secondary-Orange-700, #EA580C));
-    font-family: Figtree;
+    font-family: "Figtree", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +31,7 @@ h1 {
 h2 {
     align-self: stretch;
     color: var(--Primary-Base-Black, var(--Primary-Base-Black, #000));
-    font-family: Figtree;
+    font-family: "Figtree", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -42,7 +42,7 @@ h2 {
 .subheader {
     align-self: stretch;
     color: var(--Secondary-Orange-700, var(--Secondary-Orange-700, #EA580C));
-    font-family: Figtree;
+    font-family: "Figtree", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -52,7 +52,7 @@ h2 {
 
 h3 {
     color: #000;
-    font-family: Figtree;
+    font-family: "Figtree", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -85,11 +85,11 @@ h3 {
 }
 
 .animal-card {
-    display: flex;
+    display: 0 1 auto;
     padding: 24px;
     align-items: center;
     gap: 12px;
-    flex: 1 0 0;
+    flex: 1;
     border-radius: 12px;
     background: var(--Primary-Gray-50, #F9FAFB);
 
@@ -103,6 +103,10 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+}
+
+.card-text {
+    flex-direction: row;
 }
 
 
@@ -129,7 +133,10 @@ h3 {
 }
 
 .animal-card button:hover {
-    background-color: #e0a800;
+    background-color: #181818;
+    color: #FFF;
+    border-color: #EA580C;
+    border-width: 2px;
 }
 
 .card-section p {
